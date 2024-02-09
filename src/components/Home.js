@@ -264,7 +264,6 @@ const Home = () => {
 
     <section style={{margin:"15px 0"}}>
       <video src={video} autoPlay loop muted/>
-      <div className='our-service-content' style={{top:"600%"}}>A hairdresser's scissors are like a magic wand, transforming locks and lives with each graceful snip.</div>
     </section>
 
 

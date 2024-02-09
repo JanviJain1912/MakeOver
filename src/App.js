@@ -22,12 +22,12 @@ const App = () => {
         <Route path="/register" element={<Signin />}/>
         <Route path="/service" element={<Service />}/>
         <Route path = '/logout' element = {<Logout />} />
-        <Route path="/contact" element={<h1>visit</h1>}/>
+        {/* <Route path="/contact" element={<h1>visit</h1>}/> */}
         <Route path="/staff" element={<Staff />}/>
       </Routes>
    
       </BrowserRouter>
-      {/* <Footer /> */}
+      <Footer />
       
     </div>
   )

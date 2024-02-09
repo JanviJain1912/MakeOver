@@ -21,7 +21,7 @@ const Header = () => {
           <Link to="/about">About</Link>
           <Link to="/service">Services</Link>
           <Link to="/staff">Staff</Link>
-          <Link to="/contact">Contact Us</Link>
+          {/* <Link to="/contact">Contact Us</Link> */}
           {auth ?
             (<Link to="/logout" onClick={logout}> LogOut </Link>) :
             (<Link to="/register">Register</Link>)}
